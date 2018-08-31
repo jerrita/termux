@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
+clear
 echo "欢迎使用termux一键配置脚本！"
 echo "版本：v1.0    作者：紫泉梦月\n"
 echo "正在进行安装...请稍后...\n正在更换软件源..."
