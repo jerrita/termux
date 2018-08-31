@@ -1,9 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 echo "欢迎使用termux一键配置脚本！"
-echo -e "版本：v1.0    作者：紫泉梦月\n"
-echo -e "正在进行安装...请稍后...\n正在更换软件源..."
+echo "版本：v1.0    作者：紫泉梦月\n"
+echo "正在进行安装...请稍后...\n正在更换软件源..."
 sed -ie '2cdeb https://mirrors.tuna.tsinghua.edu.cn/termux stable main' /data/data/com.termux/files/usr/etc/apt/sources.list
-echo -e "更换成功！更新中..."
+echo "更换成功！更新中..."
 apt update
 echo "安装必备组件中..."
 apt install -y git wget curl zsh python vim
