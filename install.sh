@@ -13,9 +13,9 @@ echo "提示：下列操作国内可能较慢，可准备梯子以进行加速�
 read tmp
 echo "准备安装中..."
 cd ~
-git clone http://github.com/jerrita/termux
+wget https://raw.github.com/jerrita/termux/master/src/vimrc
 echo "正在进行vim配置&美化..."
-cp ~/termux/src/vimrc ~/.vimrc
+cp ~/vimrc ~/.vimrc
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/Vundle.vim
 echo "正在执行最后操作，美化桌面中（若需要输入，回车就行）..."
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
